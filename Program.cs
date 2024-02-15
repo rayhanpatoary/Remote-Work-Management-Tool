@@ -6,7 +6,7 @@ builder.Services.ConfigureHttpJsonOptions(options =>
 {
     options.SerializerOptions.TypeInfoResolverChain.Insert(0, AppJsonSerializerContext.Default);
 });
-
+//dfgd
 var app = builder.Build();
 
 var sampleTodos = new Todo[] {
