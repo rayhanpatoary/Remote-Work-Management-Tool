@@ -1,0 +1,11 @@
+@WorkManagementTool_HostAddress = http://localhost:5282
+
+GET {{WorkManagementTool_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{WorkManagementTool_HostAddress}}/todos/1
+Accept: application/json
+
+###
